@@ -8,8 +8,8 @@ import pandas as pd
 
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
-app = FastAPI()
-
+application = FastAPI()
+app = application
 # Templates directory setup
 templates = Jinja2Templates(directory="templates")
 

@@ -5,6 +5,8 @@ scikit-learn
 catboost
 xgboost
 dill
-fastapi[standard]
+fastapi
+uvicorn
 jinja2
+mangum
 # -e .
